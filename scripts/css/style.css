@@ -1,0 +1,19 @@
+     body {
+         background-color: white;
+         background-size: cover;
+         background-color: white;
+     }
+     
+     div {
+         height: 1423px;
+         width: 1625px;
+         background-color: whitesmoke;
+         margin: 0 auto;
+         justify-content: center;
+         position: relative;
+         /* centers the div */
+     }
+     
+     image.bannerImg {
+         /*in index.html style */
+     }
