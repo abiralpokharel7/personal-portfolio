@@ -14,6 +14,39 @@
          /* centers the div */
      }
      
+     div#userProfile {
+         height: auto;
+         width: 1625px;
+         background-color: white;
+         margin-top: 5px;
+     }
+     
      image.bannerImg {
-         /*in index.html style */
+         /*in index.html 
+         style */
+     }
+     
+     span#userName {
+         color: black;
+         font-size: x-large;
+         text-align: center;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         padding-left: 25px;
+         padding-right: 25px;
+         text-align: center;
+     }
+     
+     a.contact {
+         float: right;
+         color: white;
+         background-color: #c00;
+         text-decoration: none;
+         font-size: 25px;
+         height: 85px;
+         text-align: center;
+     }
+     
+     a.contact:hover {
+         color: black;
+         background-color: whitesmoke;
      }
