@@ -1,52 +1,177 @@
+     * {
+         user-select: none;
+     }
+     
      body {
          background-color: white;
          background-size: cover;
          background-color: white;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
      }
      
-     div {
-         height: 1423px;
+     div#bigDiv {
+         height: auto;
          width: 1625px;
          background-color: whitesmoke;
          margin: 0 auto;
-         justify-content: center;
-         position: relative;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
          /* centers the div */
      }
      
      div#userProfile {
-         height: auto;
-         width: 1625px;
-         background-color: white;
-         margin-top: 5px;
-     }
-     
-     image.bannerImg {
-         /*in index.html 
-         style */
+         height: 100px;
+         width: auto;
+         background: white;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
      }
      
      span#userName {
+         text-align: center;
+         margin-left: 1%;
+         padding-bottom: 500px;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 25px;
+     }
+     
+     button#contactBtn {
+         float: right;
+         text-align: center;
+         height: 30px;
+         width: 150px;
+         background-color: blue;
+         color: white;
+         border-radius: 5px;
+         border: none;
+         margin-top: 5px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     button.socialMediaBtn {
+         float: right;
+         margin-right: 15px;
+         margin-top: 5px;
+         height: 30px;
+         width: 150px;
+         border-radius: 5px;
+         background-color: blue;
+         color: white;
+         border: none;
+     }
+     
+     button.socialMediaBtn:hover {
+         background-color: lightblue;
+     }
+     
+     button#contactBtn:hover {
+         background-color: lightblue;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     div#navBar {
+         height: 47px;
+         width: 1625px;
+         background: whitesmoke;
+         margin: 0%;
+         padding: 0%;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     li#linkList {
+         text-decoration: none;
          color: black;
-         font-size: x-large;
+         background: whitesmoke;
+         height: 40px;
+         width: auto;
+         text-decoration: none;
          text-align: center;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
-         padding-left: 25px;
-         padding-right: 25px;
-         text-align: center;
      }
      
-     a.contact {
-         float: right;
-         color: white;
-         background-color: #c00;
+     ul.ulnav {
          text-decoration: none;
-         font-size: 25px;
-         height: 85px;
-         text-align: center;
+         list-style-type: none;
+         margin: 0 auto;
+         background-color: whitesmoke;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
      }
      
-     a.contact:hover {
-         color: black;
+     a#navLink {
+         text-align: center;
+         margin: 0 auto;
+         height: 25px;
+         border-radius: 2px solid gray;
+         text-decoration: none;
          background-color: whitesmoke;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     button#linkButton:hover {
+         height: 25px;
+         width: auto;
+         background-color: white;
+         height: 40px;
+         width: 150px;
+         padding-top: 5px;
+         margin-left: 15px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     button#linkButton {
+         background-color: whitesmoke;
+         border: none;
+         height: 40px;
+         width: 150px;
+         padding-top: 5px;
+         margin-left: 15px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     button#linkButtonActive {
+         text-decoration: underline;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         border: none;
+     }
+     
+     video {
+         height: 500px;
+         width: 700px;
+         background: black;
+         margin-top: 5px;
+     }
+     
+     footer {
+         text-align: center;
+     }
+     /* about section css codes here */
+     
+     div#miniLink {
+         height: auto;
+         width: 1625px;
+         background: lightgray;
+         padding: 0%;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+     button#miniLink {
+         padding-top: 5px;
+         margin-left: 15px;
+         margin-top: 5px;
+         margin-bottom: 5px;
+         border: none;
+         background-color: whitesmoke;
+         color: black;
+         height: 25px;
+         width: 100px;
+         margin-left: 0%;
+     }
+     
+     button#miniLink:hover {
+         background-color: lightgray;
+     }
+     
+     div#aboutme {
+         background-color: white;
+         height: auto;
+         width: 1000px;
+         margin-left: 25%;
      }
