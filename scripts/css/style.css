@@ -12,7 +12,7 @@
      div#bigDiv {
          height: auto;
          width: 1625px;
-         background-color: whitesmoke;
+         background-color: rgb(245, 245, 245, 85%);
          margin: 0 auto;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
          /* centers the div */
@@ -147,7 +147,7 @@
      div#miniLink {
          height: auto;
          width: 1625px;
-         background: lightgray;
+         background: WHITE;
          padding: 0%;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
      }
@@ -174,4 +174,56 @@
          height: auto;
          width: 1000px;
          margin-left: 25%;
+     }
+     
+     video#videos {
+         height: 186px;
+         width: 331px;
+         position: relative;
+         display: inline-flex;
+     }
+     
+     span#videoTitle {
+         font-weight: bold;
+         font-family: Arial, Helvetica, sans-serif;
+     }
+     
+     .page_wrapper {
+         border-radius: 5px;
+         padding: 10px;
+         height: 800px;
+         width: 700;
+         background-color: white;
+     }
+     
+     */ #aboutme {
+         font-size: 12pt;
+         color: black;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         background-color: black;
+         padding: 5px;
+         border-radius: 3px;
+         border: 2px solid darkgray;
+     }
+     
+     #projecttitle {
+         font-size: 20pt;
+         color: black;
+         font-family: verdana;
+         font-weight: bold;
+         text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     
+     #projectshowcase {
+         height: 800px;
+         width: 1625px;
+         background-repeat: no-repeat;
+         background-size: 100%;
+         background-color: white;
+     }
+     
+     #textarea {
+         background-color: white;
      }
