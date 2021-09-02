@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="scripts/css/style.css">
+
 </head>
 
 
@@ -19,7 +20,14 @@
             <img src="./images/profile.jpg" alt="" height="80" width="80">
             <span id="userName">Abiral Pokharel</span>
             <a href="https://facebook.com" target="blank"><button class="socialMediaBtn">facebook</button></a>
-
+            <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+            <!-- credit to Copyright (c) Sandoche Adittane -->
+            <script>
+                function addDarkmodeWidget() {
+                    new Darkmode().showWidget();
+                }
+                window.addEventListener('load', addDarkmodeWidget);
+            </script>
         </div>
         <div id="navBar">
 
