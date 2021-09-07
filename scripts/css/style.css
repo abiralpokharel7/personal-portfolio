@@ -1,229 +1,246 @@
-     * {
-         user-select: none;
-     }
-     
-     body {
-         background-color: white;
-         background-size: cover;
-         background-color: white;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     div#bigDiv {
-         height: auto;
-         width: 1625px;
-         background-color: rgb(245, 245, 245, 85%);
-         margin: 0 auto;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         /* centers the div */
-     }
-     
-     div#userProfile {
-         height: 100px;
-         width: auto;
-         background: white;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     span#userName {
-         text-align: center;
-         margin-left: 1%;
-         padding-bottom: 500px;
-         font-family: 'Times New Roman', Times, serif;
-         font-size: 25px;
-     }
-     
-     button#contactBtn {
-         float: right;
-         text-align: center;
-         height: 30px;
-         width: 150px;
-         background-color: blue;
-         color: white;
-         border-radius: 5px;
-         border: none;
-         margin-top: 5px;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     button.socialMediaBtn {
-         float: right;
-         margin-right: 15px;
-         margin-top: 5px;
-         height: 30px;
-         width: 150px;
-         border-radius: 5px;
-         background-color: blue;
-         color: white;
-         border: none;
-     }
-     
-     button.socialMediaBtn:hover {
-         background-color: lightblue;
-     }
-     
-     button#contactBtn:hover {
-         background-color: lightblue;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     div#navBar {
-         height: 47px;
-         width: 1625px;
-         background: whitesmoke;
-         margin: 0%;
-         padding: 0%;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     li#linkList {
-         text-decoration: none;
-         color: black;
-         background: whitesmoke;
-         height: 40px;
-         width: auto;
-         text-decoration: none;
-         text-align: center;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     ul.ulnav {
-         text-decoration: none;
-         list-style-type: none;
-         margin: 0 auto;
-         background-color: whitesmoke;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     a#navLink {
-         text-align: center;
-         margin: 0 auto;
-         height: 25px;
-         border-radius: 2px solid gray;
-         text-decoration: none;
-         background-color: whitesmoke;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     button#linkButton:hover {
-         height: 25px;
-         width: auto;
-         background-color: white;
-         height: 40px;
-         width: 150px;
-         padding-top: 5px;
-         margin-left: 15px;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     button#linkButton {
-         background-color: whitesmoke;
-         border: none;
-         height: 40px;
-         width: 150px;
-         padding-top: 5px;
-         margin-left: 15px;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     button#linkButtonActive {
-         text-decoration: underline;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         border: none;
-     }
-     
-     video {
-         height: 500px;
-         width: 700px;
-         background: black;
-         margin-top: 5px;
-     }
-     
-     footer {
-         text-align: center;
-     }
-     /* about section css codes here */
-     
-     div#miniLink {
-         height: auto;
-         width: 1625px;
-         background: WHITE;
-         padding: 0%;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-     }
-     
-     button#miniLink {
-         padding-top: 5px;
-         margin-left: 15px;
-         margin-top: 5px;
-         margin-bottom: 5px;
-         border: none;
-         background-color: whitesmoke;
-         color: black;
-         height: 25px;
-         width: 100px;
-         margin-left: 0%;
-     }
-     
-     button#miniLink:hover {
-         background-color: lightgray;
-     }
-     
-     div#aboutme {
-         background-color: white;
-         height: auto;
-         width: 1000px;
-         margin-left: 25%;
-     }
-     
-     video#videos {
-         height: 186px;
-         width: 331px;
-         position: relative;
-         display: inline-flex;
-     }
-     
-     span#videoTitle {
-         font-weight: bold;
-         font-family: Arial, Helvetica, sans-serif;
-     }
-     
-     .page_wrapper {
-         border-radius: 5px;
-         padding: 10px;
-         height: 800px;
-         width: 700;
-         background-color: white;
-     }
-     
-     */ #aboutme {
-         font-size: 12pt;
-         color: black;
-         font-family: Verdana, Geneva, Tahoma, sans-serif;
-         background-color: black;
-         padding: 5px;
-         border-radius: 3px;
-         border: 2px solid darkgray;
-     }
-     
-     #projecttitle {
-         font-size: 20pt;
-         color: black;
-         font-family: verdana;
-         font-weight: bold;
-         text-align: center;
-         margin-left: auto;
-         margin-right: auto;
-     }
-     
-     #projectshowcase {
-         height: 800px;
-         width: 1625px;
-         background-repeat: no-repeat;
-         background-size: 100%;
-         background-color: white;
-     }
-     
-     #textarea {
-         background-color: white;
-     }
+* {
+    user-select: none;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#bigDiv {
+    height: auto;
+    width: 1625px;
+    background-color: rgb(245, 245, 245, 85%);
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* centers the div */
+}
+
+div#userProfile {
+    height: 100px;
+    width: auto;
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span#userName {
+    text-align: center;
+    margin-left: 1%;
+    padding-bottom: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+button#contactBtn {
+    float: right;
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button.socialMediaBtn {
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+button.socialMediaBtn:hover {
+    background-color: lightblue;
+}
+
+button#contactBtn:hover {
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#navBar {
+    height: 47px;
+    width: 1625px;
+    background: whitesmoke;
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li#linkList {
+    text-decoration: none;
+    color: black;
+    background: whitesmoke;
+    height: 40px;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul.ulnav {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a#navLink {
+    text-align: center;
+    margin: 0 auto;
+    height: 25px;
+    border-radius: 2px solid gray;
+    text-decoration: none;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button#linkButton:hover {
+    height: 25px;
+    width: auto;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    padding-top: 5px;
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button#linkButton {
+    background-color: whitesmoke;
+    border: none;
+    height: 40px;
+    width: 150px;
+    padding-top: 5px;
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button#linkButtonActive {
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+}
+
+video {
+    height: 500px;
+    width: 700px;
+    background: black;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+}
+/* about section css codes here */
+
+div#miniLink {
+    height: auto;
+    width: 1625px;
+    background: WHITE;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button#miniLink {
+    padding-top: 5px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    height: 25px;
+    width: 100px;
+    margin-left: 0%;
+}
+
+button#miniLink:hover {
+    background-color: lightgray;
+}
+
+div#aboutme {
+    background-color: white;
+    height: auto;
+    width: 1000px;
+    margin-left: 25%;
+}
+
+video#videos {
+    height: 186px;
+    width: 331px;
+    position: relative;
+    display: inline-flex;
+}
+
+span#videoTitle {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page_wrapper {
+    border-radius: 5px;
+    padding: 10px;
+   
+    width: 700;
+    background-color: white;
+    margin: auto;
+}
+
+*/#aboutme {
+    font-size: 12pt;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid darkgray;
+}
+
+#projecttitle {
+    font-size: 20pt;
+    color: black;
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projectshowcase {
+   
+    width: 1625px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white;
+}
+
+#textarea {
+    background-color: white;
+}
+table{
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 5px;
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+footer{
+    background-color: whitesmoke;
+    margin: auto;
+    width: 1625px;
+}
