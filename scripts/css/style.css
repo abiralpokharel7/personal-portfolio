@@ -244,3 +244,8 @@ footer{
     margin: auto;
     width: 1625px;
 }
+span#videoIntro{
+float: right;
+ margin-right: 500px; 
+ margin-top: 5px;
+}
